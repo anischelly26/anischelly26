@@ -1,0 +1,16 @@
+{
+  "note": "Lightweight GitHub source-mirror taxonomy. The original V4.02 archive contains the complete universal taxonomy.",
+  "families": [
+    {"name": "Computing & AI", "subfields": [{"name": "Artificial Intelligence"}, {"name": "Software Engineering"}, {"name": "Computer Vision"}, {"name": "Human-Centered AI"}, {"name": "Cybersecurity"}]},
+    {"name": "Data & Information Studies", "subfields": [{"name": "Data Science"}, {"name": "Business Analytics"}, {"name": "Information Systems"}]},
+    {"name": "Business & Management", "subfields": [{"name": "Innovation Management"}, {"name": "Product Management"}, {"name": "Entrepreneurship"}]},
+    {"name": "Policy & Society", "subfields": [{"name": "Technology Policy"}, {"name": "Public Policy"}, {"name": "Digital Society"}]},
+    {"name": "Health & Sport", "subfields": [{"name": "Sports Analytics"}, {"name": "Digital Health"}, {"name": "Biomechanics"}]}
+  ],
+  "bridges": {
+    "ai": ["Artificial Intelligence", "Computer Vision", "Human-Centered AI", "Data Science"],
+    "product": ["Product Management", "Innovation Management", "Software Engineering"],
+    "sport": ["Sports Analytics", "Biomechanics", "Computer Vision"],
+    "policy": ["Technology Policy", "Digital Society", "Human-Centered AI"]
+  }
+}
