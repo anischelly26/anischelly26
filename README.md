@@ -43,7 +43,7 @@ EXPERIENCE SIGNAL
 VERMEG                 → AI / COMPUTER VISION
 MONOPRIX               → DATA / AUTOMATION
 ORANGE × MEDTECH       → FULL STACK / EXPLAINABLE AI
-INDEPENDENT AI LAB     → PADELVISION / STUDY ABROAD AI
+INDEPENDENT AI LAB     → PADELVISION / VERIPATH AI
 ```
 
 ---
@@ -102,33 +102,33 @@ Gaussian HMM project with **Youssef Mani** for latent weather-state inference an
 
 ---
 
-### `MISSION_05 // PADELVISION`
-## `MOVEMENT → METRICS → COACHING`
+### `MISSION_05 // PADELVISION AI`
+## `VIDEO → MOVEMENT → STRATEGY`
 
-**PadelVision AI**
+**AI Padel Coach — v0.5 Strategy Build**
 
-Sports-AI R&D project focused on padel movement analysis. The current reference model structures strokes into phases and tracks signals such as gaze, center of mass, trunk/hip movement, upper- and lower-body directions, racket movement and tempo.
+Streamlit sports-AI prototype that analyses padel stroke videos with **MediaPipe + OpenCV**, converts 33 pose landmarks into player-centred movement signals, compares them against a phase-based movement reference system, and turns the internal diagnosis into player-facing **tactical consequences, match strategy, rebuild steps, coaching cues and drills**.
 
-The current v0.1 movement reference is intentionally treated as **pre-validation data** and should be validated by qualified padel coaching expertise before being treated as ground truth.
+It includes a local strategy-first coaching engine, official-rules retrieval layer and an optional OpenAI-powered conversational mode. The movement reference remains prototype coaching data and requires qualified coach validation before being treated as universal ground truth.
 
-`Computer Vision` · `Sports AI` · `Biomechanics` · `Movement Analysis` · `Performance Analytics`
+`Python` · `MediaPipe` · `OpenCV` · `Streamlit` · `Computer Vision` · `Sports AI` · `LLM`
 
-**[READ PADELVISION CASE STUDY ↗](https://github.com/anischelly26/treasure-hunter/blob/main/case-studies/padelvision.md)**
+**[OPEN PADELVISION SOURCE ↗](https://github.com/anischelly26/anischelly26/tree/main/projects/padelvision-ai)**
 
 ---
 
-### `MISSION_06 // STUDY ABROAD AI`
-## `PROFILE → OPTIONS → DECISION`
+### `MISSION_06 // VERIPATH AI`
+## `PROFILE → DISCOVER → COMPARE → DECIDE`
 
-**AI Study Abroad Assistant**
+**AI Study-Abroad Discovery & Decision-Support System — V4.02**
 
-AI-assisted international-study guidance product designed around helping students navigate study-abroad choices and decision-making.
+Universal study-discovery platform built around a **data-driven academic taxonomy, guided student profile, recommendation engine, diversity-aware reranking, affordability and data-quality signals, shortlist/decision workflows and a grounded assistant**.
 
-The public technical description stays intentionally high-level until the complete source files are published — no invented architecture, fake metrics or undocumented features.
+The engine deliberately keeps **compatibility, known requirement checks, affordability, data quality and uncertainty separate**. A compatibility score is not presented as an admission probability, and synthetic catalogue records remain explicitly labelled as demo/discovery data rather than verified university offerings.
 
-`AI` · `Recommendation` · `EdTech` · `Decision Support`
+`Python` · `Streamlit` · `Recommendation Systems` · `EdTech` · `Decision Support` · `Evaluation`
 
-**[PROJECT STATUS ↗](https://github.com/anischelly26/treasure-hunter/blob/main/case-studies/study-abroad-ai.md)**
+**[OPEN VERIPATH SOURCE ↗](https://github.com/anischelly26/anischelly26/tree/main/projects/veripath-ai)**
 
 ---
 
@@ -136,10 +136,10 @@ The public technical description stays intentionally high-level until the comple
 
 ```text
 AI SYSTEMS      Machine Learning · NLP · Computer Vision · OCR · XAI · HMM
-AI TOOLING      OpenCV · Tesseract · LLaVA · Ollama · hmmlearn
+AI TOOLING      OpenCV · MediaPipe · Tesseract · LLaVA · Ollama · hmmlearn
 ENGINEERING     Python · Java · JavaScript · C · PHP
-WEB             React · Node.js · Express · HTML · CSS
-DATA            MySQL · SQL Server · MongoDB
+WEB             React · Node.js · Express · Streamlit · HTML · CSS
+DATA            MySQL · SQL Server · MongoDB · pandas
 SYSTEMS         Git · GitHub · Linux · Windows · Azure · Agile/Scrum
 ```
 
@@ -177,6 +177,10 @@ COMMUNICATION CHANNEL READY.
 ## `THE README IS ONLY THE GATEWAY.`
 
 ### **[▶ ENTER ANIS.EXE — INTERACTIVE EXPERIENCE ↗](https://anischelly26.github.io/treasure-hunter/)**
+
+<br/>
+
+[AI source release provenance](https://github.com/anischelly26/anischelly26/blob/main/projects/SOURCE_RELEASES.md)
 
 <br/>
 
