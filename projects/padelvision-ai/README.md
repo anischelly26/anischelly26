@@ -1,73 +1,72 @@
-# PadelVision AI v0.3 — Database-Connected Coach
+# PadelVision AI v0.5 — Strategy-First AI Padel Coach
 
-PadelVision v0.3 connects three layers:
+PadelVision is a sports-AI research prototype that turns a short padel-stroke video into **player-facing tactical coaching** rather than a wall of biomechanics numbers.
 
-1. **Video analysis** — MediaPipe detects 33 body landmarks.
-2. **Binary movement database** — each comparable body point has an expected six-bit direction vector for each stroke phase.
-3. **Coaching agent** — retrieves database rows and combines them with the user's measured mismatches before answering.
+## System
 
-## Start on Windows
+```text
+Stroke video
+   ↓
+MediaPipe pose estimation (33 landmarks)
+   ↓
+Player-centred movement deltas
+   ↓
+7-phase stroke segmentation
+   ↓
+Movement-reference comparison
+   ↓
+Internal diagnosis
+   ↓
+Movement pattern → tactical consequence → match strategy → rebuild → cue → drill
+```
 
-Extract the ZIP and double-click:
+The app combines:
 
-`START_HERE.bat`
+- **Video analysis** with MediaPipe + OpenCV
+- **Movement reference retrieval** using six-bit directional vectors
+- **Strategy-first coaching** that hides raw coordinates/landmark noise from the player
+- **Official-rules retrieval** for padel-rule questions
+- **Local coaching mode** that works without an API key
+- **Optional OpenAI mode** for richer grounded conversation
 
-Keep the terminal window open while using the app.
+## Run
 
-## What is new in v0.3
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-- The binary movement database is included in the project under `data/`.
-- 33 pose landmarks are converted into observed binary movement vectors.
-- Observed vectors are compared with expected database vectors.
-- Results are summarized by movement phase, body segment, and individual landmark.
-- The chatbot is now a database-connected coaching agent.
-- The app has a cleaner conversational interface.
-- Optional advanced LLM mode can use an OpenAI API key; the local grounded coach works without one.
+On Windows, `START_HERE.bat` is also included.
 
-## Binary vector order
+## Strategy-first design
 
-`[X_Right, X_Left, Y_Forward, Y_Backward, Z_Up, Z_Down]`
+The player-facing AI does **not** lead with raw body landmark IDs, binary vectors, angle values or point-by-point placement.
 
-Example:
-
-- Right + Forward: `101000`
-- Up + Forward: `001010`
-- Stable: `000000`
-
-## Important current limitations
-
-This is still a research prototype.
-
-- The seven stroke phases are currently estimated by dividing a single-stroke clip into equal time sections.
-- The player coordinate conversion assumes a rear or front camera view and is not a full calibrated 3D court reconstruction.
-- The movement database is marked **Needs coach validation**.
-- Racket and ball tracking are not implemented yet.
-
-These limitations should be fixed before treating the score as a validated padel technique assessment.
-
-## Recommended video
-
-- One complete stroke per clip.
-- Full body visible.
-- Stable camera.
-- Rear view is currently preferred.
-- 3–10 second clips work best for this prototype.
-
-
-## Strategy-first video analysis
-
-In v0.5 the player-facing AI no longer reports raw body landmarks, binary vectors,
-angle values, movement-match percentages, or point-by-point placement.
-
-The internal movement database is still used for diagnosis, but the result is converted into:
+Instead, the internal movement analysis is translated into:
 
 1. Overall movement pattern
-2. Tactical consequence during a rally
+2. Tactical consequence during the rally
 3. Safer match strategy to use immediately
 4. Movement rebuild sequence
 5. One simple coaching cue
 6. One practical training drill
 
-This is deliberately different from a biomechanics dashboard. The technical matrix is an
-internal reasoning layer; the player receives actionable padel strategy.
+## Important limitations
 
+This is a research prototype, not a validated coaching/medical system.
+
+- Stroke phases are currently estimated using equal-time segmentation.
+- Player-centred coordinates are not a calibrated 3D court reconstruction.
+- The movement-reference data is explicitly marked **Needs coach validation**.
+- Racket and ball tracking are not implemented in this build.
+- Technique scores must not be treated as scientifically validated performance grades.
+
+## GitHub source-mirror note
+
+The original saved release is **`PadelVision_AI_v0.5_STRATEGY.zip`**. It contains the complete movement dataset, rules source material, sample outputs and bundled project assets.
+
+This GitHub folder mirrors the readable application/engine source and includes a small reference sample so the code structure can be explored and started without committing every large/binary source asset. See [`../SOURCE_RELEASES.md`](../SOURCE_RELEASES.md) for release provenance and SHA-256 verification.
+
+---
+
+**Anis Chelly // AI × Software Engineering // Sports AI R&D**
