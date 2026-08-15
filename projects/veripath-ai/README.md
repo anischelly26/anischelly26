@@ -1,72 +1,74 @@
-# VeriPath AI V3.0 — Study Universe
+# VeriPath AI V4.02 — Study-Abroad Discovery & Decision Support
 
-VeriPath V3 is a universal study-discovery and decision-support platform. It is deliberately broader than an engineering/AI recommender and is designed so the academic taxonomy can expand without application-code changes.
+VeriPath is an AI-assisted international-study discovery and decision-support system. It is designed to help a student go from a vague profile to a structured set of study options **without turning a recommendation score into a fake admission probability**.
 
-## What changed
+## Product journey
 
-- Data-driven taxonomy spanning 50+ academic families and hundreds of subfields.
-- New **Explore the World of Study** experience with search and cross-disciplinary bridges.
-- Guided five-step profile builder with profile import/export and diverse personas.
-- Routed product experience: Welcome, Profile, Explore, Discover, Programme Detail, Shortlist, Compare, Scenario Lab, Application Readiness, Assistant, Data Health, Evaluation Lab, Methodology.
-- Genuine layered motion/parallax-style hero component with reduced-motion accessibility support.
-- Recommendation logic that keeps **compatibility, known checks, affordability, data quality and uncertainty separate**.
-- Diversity-aware reranking and cross-disciplinary discovery.
-- Grounded deterministic VeriPath Assistant that refuses to invent unknown admissions facts.
-- Synthetic trainable-weight pipeline with profile-level split to prevent leakage.
-- Evaluation support for Precision@K, Recall@K, HitRate@K, MRR, MAP and NDCG@K; coverage/diversity/novelty hooks documented.
-- Explicit separation of real/verified-seed and synthetic discovery data.
-
-## Scientific honesty
-
-A compatibility score is **not an admission probability**.
-
-Synthetic programme records exist only to demonstrate universal discovery breadth. They are labelled `synthetic_demo` and are not real university offerings. Real programme facts must be verified against official sources before decisions.
-
-## Run on Windows
-
-Double-click `START_VERIPATH.bat`.
-
-## Manual run
-
-```bash
-python -m pip install -r requirements.txt
-python -m streamlit run app.py
+```text
+Student profile
+      ↓
+Explore academic universe
+      ↓
+Transparent recommendations
+      ↓
+Known checks + unknowns + affordability + data quality
+      ↓
+Shortlist / compare
+      ↓
+Decision tasks
+      ↓
+Grounded VeriPath Copilot
 ```
 
-## Train the lightweight ranking weights
+## Core ideas in the saved V4.02 release
+
+- Data-driven academic taxonomy spanning many study families and subfields
+- Guided student profile and cross-disciplinary discovery
+- Compatibility scoring from interests, domain, career direction, country, affordability and data quality
+- **Known requirements and unknown requirements shown separately**
+- Diversity-aware reranking so one academic family does not dominate every result
+- Shortlist, comparison and decision-planning workflows
+- Grounded deterministic assistant that refuses to invent missing admissions facts
+- Evaluation tooling for ranking quality and recommendation behaviour
+- Explicit separation between verified/seed data and `synthetic_demo` discovery records
+- V4 experience with the bundled video acting as a fixed full-application background
+
+## Scientific / product honesty
+
+**Compatibility ≠ admission probability.**
+
+VeriPath does not claim that a 75/100 compatibility score means a 75% chance of admission. Known evidence, affordability, data quality and missing information are kept visible as separate decision dimensions.
+
+Synthetic records are labelled as demo/discovery records. They are **not real university offerings**, and real programme requirements must be verified against official university sources before applying.
+
+## Run this GitHub source mirror
 
 ```bash
-python train_ranker.py
+pip install -r requirements.txt
+streamlit run app.py
 ```
 
-## Run the synthetic evaluation benchmark
+The GitHub mirror includes a small `synthetic_demo` catalogue and taxonomy so the recommendation engine and decision experience can be explored immediately.
 
-```bash
-python run_benchmark_v300.py
+## Main source components
+
+```text
+app.py                         # runnable Streamlit source-mirror experience
+src/universal_engine.py        # compatibility + transparent decision signals
+src/taxonomy.py                # academic-family/subfield discovery
+src/experience_v4.py           # journey/progress/next-action logic
+src/assistant.py               # grounded decision copilot
+data/                          # lightweight demo catalogue + taxonomy
 ```
 
-## Run tests
+## Original release vs GitHub mirror
 
-```bash
-python -m pip install -r requirements-dev.txt
-python -m pytest -q
-```
+The latest exact saved artifact currently available is **`VeriPath_AI_V402_Global_Background_Fixed.zip`**. The original release contains the complete universal catalogue/taxonomy, evaluation assets, documentation, tests and the global MP4 background.
 
-See `docs/` for architecture, taxonomy, governance, ranking, design, audit and roadmap notes.
+This GitHub folder is a readable/runnable source mirror rather than a byte-for-byte copy of every large/binary release asset. See [`../SOURCE_RELEASES.md`](../SOURCE_RELEASES.md) for the original archive name and SHA-256 hash.
 
-## V3.2 Journey Rebuild
+A later V4.03 build was produced during development, but its exact ZIP is not currently present in the saved file library, so V4.02 is **not** being relabelled as V4.03 here.
 
-This build focuses on three pain points:
-- a clearer guided journey so users do not feel lost,
-- a more context-aware copilot with multi-turn memory,
-- richer visuals including illustrative university cards and a stronger landing experience.
+---
 
-### Honest note on images
-Because live web retrieval is disabled in the build environment, the university images in this release are generated illustrative institution cards, not downloaded official campus photos. They are meant to improve clarity and visual hierarchy without pretending to be official assets.
-
-## V4.01 Video Background Update
-The Home hero now uses the bundled `assets/hero-background.mp4` as its live background, with readability overlays and cursor-reactive depth layers.
-
-## V4.02 Global Background Update
-
-The uploaded video now acts as a fixed full-application background. Home placement was rebuilt so the main journey cards are visible and consistently composed instead of appearing below a boxed video hero. See `docs/RELEASE_NOTES_V402.md` for details.
+**Anis Chelly // AI × Software Engineering // EdTech & Decision Support**
