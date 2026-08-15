@@ -1,0 +1,12 @@
+Lookup_Key,Stroke,Phase,Landmark_ID,Landmark_Name,Body_Segment,Expected_Direction,Comparable,Exp_X_Pos,Exp_X_Neg,Exp_Y_Pos,Exp_Y_Neg,Exp_Z_Pos,Exp_Z_Neg,Expected_Binary_Vector,Ground_Truth_Status
+Forehand Groundstroke|Preparation|12,Forehand Groundstroke,Preparation,12,RIGHT_SHOULDER,Right_Shoulder,Turn / organize,1,0,1,0,0,0,0,010000,Needs coach validation
+Backhand Groundstroke|Preparation|11,Backhand Groundstroke,Preparation,11,LEFT_SHOULDER,Left_Shoulder,Turn / organize,1,1,0,0,0,0,0,100000,Needs coach validation
+Forehand Volley|Contact|16,Forehand Volley,Contact,16,RIGHT_WRIST,Right_Wrist,Forward stable contact,1,0,0,1,0,0,0,001000,Needs coach validation
+Backhand Volley|Contact|15,Backhand Volley,Contact,15,LEFT_WRIST,Left_Wrist,Forward stable contact,1,0,0,1,0,0,0,001000,Needs coach validation
+Serve|Contact|16,Serve,Contact,16,RIGHT_WRIST,Right_Wrist,Forward contact,1,0,0,1,0,0,0,001000,Needs coach validation
+Bandeja|Preparation|12,Bandeja,Preparation,12,RIGHT_SHOULDER,Right_Shoulder,Prepare overhead,1,0,0,0,1,1,0,000110,Needs coach validation
+Vibora|Acceleration|16,Vibora,Acceleration,16,RIGHT_WRIST,Right_Wrist,Forward and upward,1,0,0,1,0,1,0,001010,Needs coach validation
+Flat Smash|Contact|16,Flat Smash,Contact,16,RIGHT_WRIST,Right_Wrist,Forward and upward,1,0,0,1,0,1,0,001010,Needs coach validation
+Kick Smash / X3|Contact|16,Kick Smash / X3,Contact,16,RIGHT_WRIST,Right_Wrist,Upward spin contact,1,0,0,1,0,1,0,001010,Needs coach validation
+Forehand Lob|Contact|16,Forehand Lob,Contact,16,RIGHT_WRIST,Right_Wrist,Forward and upward lift,1,0,0,1,0,1,0,001010,Needs coach validation
+Backhand Lob|Contact|15,Backhand Lob,Contact,15,LEFT_WRIST,Left_Wrist,Forward and upward lift,1,0,0,1,0,1,0,001010,Needs coach validation
