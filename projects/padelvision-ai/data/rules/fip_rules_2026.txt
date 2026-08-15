@@ -1,0 +1,18 @@
+PADELVISION SOURCE MIRROR — FIP RULES EXCERPT
+
+The complete official FIP Rules of Padel text is preserved in the original PadelVision v0.5 release archive. This GitHub source mirror contains only a lightweight excerpt so the local retrieval layer can start.
+
+RULE 6. THE SERVICE OR SERVE
+The serve must follow the official service-position, bounce, contact-height and diagonal-service-box requirements. Consult the official FIP Rules of Padel (application 01.01.2026) for complete wording and competition interpretation.
+
+RULE 7. SERVICE FAULT
+Service faults and second-service conditions are governed by the official FIP rulebook.
+
+RULE 8. RETURN OF SERVE
+The receiver must allow the serve to bounce in the service box before returning it, subject to the complete official rule wording.
+
+RULE 13. POINT LOST
+A player loses the point in situations defined by the official rules, including prohibited net contact and invalid returns.
+
+IMPORTANT
+This excerpt is not a replacement for the official FIP rulebook. For competition decisions, verify the current official FIP Rules of Padel.
