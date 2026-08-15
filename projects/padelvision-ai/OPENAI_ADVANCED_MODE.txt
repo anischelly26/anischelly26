@@ -1,0 +1,17 @@
+OPTIONAL ADVANCED AI COACH MODE
+
+The project works without an API key using the local coaching and rules knowledge engines.
+
+For more natural free-form LLM conversation:
+1. Start the app.
+2. In the left sidebar, turn on "Advanced LLM mode".
+3. Paste your OpenAI API key into the password field.
+4. Choose a model that is available to your API account.
+
+The API key entered in the Streamlit field is not written to the project files by this application.
+The agent sends grounded context containing:
+- the user's latest video analysis,
+- relevant movement reference rows,
+- relevant official FIP rule sections.
+
+The model is instructed not to expose raw body-point/binary data as the primary coaching answer. It should turn the diagnosis into actionable movement steps and use the official FIP rule context for rules questions.

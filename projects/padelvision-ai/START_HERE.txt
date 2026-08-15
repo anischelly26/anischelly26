@@ -1,0 +1,14 @@
+PADELVISION AI v0.4
+
+WINDOWS
+1. Extract the ZIP.
+2. Double-click START_HERE.bat.
+3. Keep the terminal window open while the app is running.
+
+The first run installs the required Python packages.
+The MediaPipe pose model downloads automatically when you analyse your first video.
+
+The app includes:
+- Video technique analysis
+- Step-by-step AI coaching
+- Official FIP Rules of Padel knowledge (application 01.01.2026)

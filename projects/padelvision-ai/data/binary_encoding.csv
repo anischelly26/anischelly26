@@ -1,0 +1,13 @@
+﻿Field,Meaning,Rule
+X_Pos,Move toward player right,1 if dX > threshold
+X_Neg,Move toward player left,1 if dX < -threshold
+Y_Pos,Move toward net,1 if dY > threshold
+Y_Neg,Move toward back glass,1 if dY < -threshold
+Z_Pos,Move upward,1 if dZ > threshold
+Z_Neg,Move downward,1 if dZ < -threshold
+Vector order,X+ X- Y+ Y- Z+ Z-,F+R = 101000
+STABLE,No significant movement,000000
+Correct,Observed equals expected,6/6 bits match
+Partial,Mostly correct,4 or 5 bits match
+Incorrect,Major disagreement,3 or fewer bits match
+Wildcard,Context-dependent expected movement,Not scored
