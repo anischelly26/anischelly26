@@ -36,7 +36,7 @@ SYSTEM          ● ONLINE
 
 I build software that **understands, transforms and automates** — from computer vision and explainable AI to data systems, full-stack products and experimental AI tools.
 
-My work combines **engineering + AI**, not AI as decoration: image processing, OCR, ranking systems, probabilistic models, data automation, recommendation-oriented products and sports-analysis R&D.
+My work combines **engineering + AI**, not AI as decoration: image processing, OCR, ranking systems, probabilistic models, data automation, recommendation-oriented products, deployment architecture and sports-analysis R&D.
 
 ```text
 EXPERIENCE SIGNAL
@@ -44,6 +44,7 @@ VERMEG                 → AI / COMPUTER VISION
 MONOPRIX               → DATA / AUTOMATION
 ORANGE × MEDTECH       → FULL STACK / EXPLAINABLE AI
 INDEPENDENT AI LAB     → PADELVISION / VERIPATH AI
+COLLAB SYSTEMS         → ML PIPELINES / DEPLOYMENT ARCHITECTURE
 ```
 
 ---
@@ -129,6 +130,21 @@ The engine deliberately keeps **compatibility, known requirement checks, afforda
 `Python` · `Streamlit` · `Recommendation Systems` · `EdTech` · `Decision Support` · `Evaluation`
 
 **[OPEN VERIPATH SOURCE ↗](https://github.com/anischelly26/anischelly26/tree/main/projects/veripath-ai)**
+
+---
+
+### `MISSION_07 // ML PIPELINE`
+## `INGEST → CLEAN → TRAIN → EXPLAIN`
+
+**Distributed End-to-End Machine Learning Pipeline — Collaboration / Fork**
+
+Multi-stage ML architecture that separates dataset ingestion and profiling, cleaning and feature engineering, model training and evaluation, and explainability/reporting into independently deployable services. The system uses a FastAPI orchestration layer, Supabase persistence, Hugging Face Spaces for ML stages and a Vercel-hosted frontend.
+
+This portfolio entry is explicitly presented as a **fork / collaborative learning codebase**, not a solo-authored project. Original upstream work remains credited to **Adam Bouacida (`adam12bT`)**.
+
+`Python` · `FastAPI` · `Machine Learning` · `Hugging Face Spaces` · `Supabase` · `Render` · `Vercel`
+
+**[EXPLORE ML PIPELINE ↗](https://github.com/anischelly26/ml_pipeline)**
 
 ---
 
