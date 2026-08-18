@@ -10,7 +10,7 @@ AI/ML · Computer Vision · Backend · Full Stack
 
 **[▶ ENTER ANIS.EXE](https://anischelly26.github.io/treasure-hunter/)** · **[EMAIL ↗](mailto:anis.chelli@medtech.tn)**
 
-`SOURCE-BACKED PROJECT TESTS INSIDE ANIS.EXE`
+`SOURCE-BACKED PROJECT TESTS + PLAYABLE TREASURE HUNTER`
 
 </div>
 
@@ -65,8 +65,8 @@ Final year · Expected 2027
 <summary><b>More projects</b></summary>
 <br/>
 
-**Treasure Hunter** — academic C/SDL2 game. A faithful browser port will be added when the original C source/assets are available.  
-[Open ANIS.EXE ↗](https://anischelly26.github.io/treasure-hunter/)
+**Treasure Hunter** — academic C/SDL2 platform game with four levels, enemies and a final shark boss. ANIS.EXE includes a playable browser adaptation based on the public team source.  
+[Play in ANIS.EXE ↗](https://anischelly26.github.io/treasure-hunter/)
 
 **PadelVision AI** — video pose analysis → tactical coaching.  
 [Open ↗](https://github.com/anischelly26/anischelly26/tree/main/projects/padelvision-ai)
