@@ -10,7 +10,7 @@ AI/ML · Computer Vision · Backend · Full Stack
 
 **[▶ ENTER ANIS.EXE](https://anischelly26.github.io/treasure-hunter/)** · **[EMAIL ↗](mailto:anis.chelli@medtech.tn)**
 
-`SOURCE-BACKED PROJECT TESTS + PLAYABLE TREASURE HUNTER`
+`SOURCE-BACKED PROJECT TESTS + PLAYABLE DEMOS`
 
 </div>
 
@@ -25,7 +25,16 @@ Final year · Expected 2027
 
 ## `SELECTED WORK`
 
-### `01 // UI → CODE`
+### `01 // NEED → UNDERSTAND → TRUST → MATCH`
+**HERE — Human Intelligence Network** — a need-first AI product concept that interprets human requests, models contextual risk and ranks people by explainable fit rather than popularity.
+
+`AI Product` · `Explainable Matching` · `Trust & Safety` · `JavaScript`
+
+**[▶ LIVE DEMO](https://anischelly26.github.io/treasure-hunter/here/)** · **[SOURCE / NOTES ↗](https://github.com/anischelly26/treasure-hunter/tree/main/here)**
+
+---
+
+### `02 // UI → CODE`
 **AI UI-to-Code Converter** — screenshot analysis, OCR and web reconstruction.
 
 `Python` · `OpenCV` · `Tesseract` · `LLaVA`
@@ -34,7 +43,7 @@ Final year · Expected 2027
 
 ---
 
-### `02 // CV → MATCH → EXPLAIN`
+### `03 // CV → MATCH → EXPLAIN`
 **Explainable AI PFE Portal** — CV matching, ranking and explainable shortlisting.
 
 `React` · `Node.js` · `MongoDB` · `XAI`
@@ -43,7 +52,7 @@ Final year · Expected 2027
 
 ---
 
-### `03 // INGEST → CLEAN → TRAIN → EXPLAIN`
+### `04 // INGEST → CLEAN → TRAIN → EXPLAIN`
 **Distributed ML Pipeline** — multi-stage ML architecture with API orchestration.
 
 `Python` · `FastAPI` · `Supabase` · `Hugging Face`
@@ -54,7 +63,7 @@ Final year · Expected 2027
 
 ---
 
-### `04 // PROFILE → DECIDE`
+### `05 // PROFILE → DECIDE`
 **VeriPath AI** — transparent study-abroad discovery and recommendation system.
 
 `Python` · `Streamlit` · `Recommendation Systems`
