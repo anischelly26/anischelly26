@@ -34,7 +34,16 @@ Final year · Expected 2027
 
 ---
 
-### `02 // UI → CODE`
+### `02 // BARCELONA ↔ DUBAI`
+**Barcelona & Dubai Market Explorer** — an in-progress property intelligence MVP that normalizes cross-market pricing and exposes interactive geospatial comparisons.
+
+`Next.js` · `TypeScript` · `Data Modeling` · `Geo Analytics`
+
+**[▶ OPEN LIVE MVP](https://barcelona-dubai-market-explorer.rhythmx.chatgpt.site)**
+
+---
+
+### `03 // UI → CODE`
 **AI UI-to-Code Converter** — screenshot analysis, OCR and web reconstruction.
 
 `Python` · `OpenCV` · `Tesseract` · `LLaVA`
@@ -43,7 +52,7 @@ Final year · Expected 2027
 
 ---
 
-### `03 // CV → MATCH → EXPLAIN`
+### `04 // CV → MATCH → EXPLAIN`
 **Explainable AI PFE Portal** — CV matching, ranking and explainable shortlisting.
 
 `React` · `Node.js` · `MongoDB` · `XAI`
@@ -52,7 +61,7 @@ Final year · Expected 2027
 
 ---
 
-### `04 // INGEST → CLEAN → TRAIN → EXPLAIN`
+### `05 // INGEST → CLEAN → TRAIN → EXPLAIN`
 **Distributed ML Pipeline** — multi-stage ML architecture with API orchestration.
 
 `Python` · `FastAPI` · `Supabase` · `Hugging Face`
@@ -63,7 +72,7 @@ Final year · Expected 2027
 
 ---
 
-### `05 // PROFILE → DECIDE`
+### `06 // PROFILE → DECIDE`
 **VeriPath AI** — transparent study-abroad discovery and recommendation system.
 
 `Python` · `Streamlit` · `Recommendation Systems`
