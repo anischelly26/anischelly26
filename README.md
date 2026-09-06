@@ -39,7 +39,7 @@ Final year · Expected 2027
 
 `Next.js` · `TypeScript` · `Data Modeling` · `Geo Analytics`
 
-**[▶ OPEN LIVE MVP](https://barcelona-dubai-market-explorer.rhythmx.chatgpt.site)**
+**[▶ OPEN LIVE MVP](https://barcelona-dubai-market-explorer.rhythmx.chatgpt.site)** · **[SOURCE ↗](https://github.com/anischelly26/barcelona-dubai-market-explorer)**
 
 ---
 
