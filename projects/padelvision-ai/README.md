@@ -2,6 +2,12 @@
 
 PadelVision is a sports-AI research prototype that turns a short padel-stroke video into **player-facing tactical coaching** rather than a wall of biomechanics numbers.
 
+## Live browser demo
+
+[Open the PadelVision Movement Studio](https://anischelly26.github.io/treasure-hunter/padelvision/) · [Browser source and methodology](https://github.com/anischelly26/treasure-hunter/tree/main/padelvision)
+
+The hosted v0.6 demo processes a chosen video on the user's device with MediaPipe Pose Landmarker. It shows body landmarks, sampled-frame coverage and transparent 2D measurements. It does not host this Python application, validate coaching scores or track the ball/racket. The original v0.5 Streamlit/OpenCV research prototype below can be run locally.
+
 ## System
 
 ```text
